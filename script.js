@@ -38,6 +38,6 @@ function playWelcomeAudio(audioUrl) {
 // How to trigger it when the page loads:
 window.addEventListener('DOMContentLoaded', () => {
     // Replace this URL with the actual path to your audio file (mp3, wav, etc.)
-    playWelcomeAudio('.Ricky_Montgomery_-_Line_Without_a_Hook_(mp3.pm) (2).mp3');
+    playWelcomeAudio('./Ricky_Montgomery_-_Line_Without_a_Hook_(mp3.pm).mp3');
 
 });
