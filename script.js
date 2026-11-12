@@ -38,6 +38,5 @@ function playWelcomeAudio(audioUrl) {
 // How to trigger it when the page loads:
 window.addEventListener('DOMContentLoaded', () => {
     // Replace this URL with the actual path to your audio file (mp3, wav, etc.)
-    playWelcomeAudio('rudo_made_it_COSKO_-_Golden_Brown_x_Love_Story_-_Slowed_(mp3.pm) (1).mp3);
-
+    playWelcomeAudio('./rudo_made_it_COSKO_-_Golden_Brown_x_Love_Story_-_Slowed_(mp3.pm) (1).mp3');
 });
